@@ -1,4 +1,4 @@
-import { IOptions, RecursivePartial } from "react-tsparticles";
+import { RecursivePartial } from "react-tsparticles";
 import { Project } from "../models/Project";
 import { images } from "./images";
 export const TECHNOLOGIES_ICONS = [
@@ -129,7 +129,7 @@ export const TECHNOLOGIES_ICONS = [
   },
 ];
 
-export const PARTICLES_OPTIONS: RecursivePartial<IOptions> | undefined = {
+export const PARTICLES_OPTIONS: RecursivePartial<any> | undefined = {
   fullScreen: {
     enable: true,
     zIndex: 1,
