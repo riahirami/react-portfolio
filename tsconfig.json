@@ -15,7 +15,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["@types/babel__generator/index.d.ts"],
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./src/*"]
