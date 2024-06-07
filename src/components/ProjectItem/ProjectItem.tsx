@@ -1,9 +1,7 @@
 import React from "react";
-import githubIcon from "../../assets/github-icon.svg";
-import externalLink from "../../assets/external-link.svg";
-import folderIcon from "../../assets/folder-icon.svg";
 import { Project } from "../../models/Project";
 import { Container } from "./styles";
+import { images } from "utils/images";
 interface ProjectProps {
   project: Project;
 }
@@ -15,12 +13,17 @@ const ProjectItem = ({ project }: ProjectProps) => {
           {/* <img src={folderIcon} alt="folderIcon" width={30} height={30} /> */}
           <div className="project-links">
             <a href={project.github} target="_blank" rel="noreferrer">
-              <img src={githubIcon} alt="Visit site" width={30} height={30} />
+              <img
+                src={images.githubIcon}
+                alt="Visit site"
+                width={30}
+                height={30}
+              />
             </a>
             {project.isDeployed && (
               <a href={project.link} target="_blank" rel="noreferrer">
                 <img
-                  src={externalLink}
+                  src={images.externalLink}
                   alt="Visit site"
                   width={30}
                   height={30}

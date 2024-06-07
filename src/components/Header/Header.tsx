@@ -2,6 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
+import { MENU_ITEMS } from "utils/constants";
 export function Header() {
   const [isActive, setActive] = useState(false);
   function toggleTheme() {
@@ -27,18 +28,11 @@ export function Header() {
         />
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? "active" : ""}>
-          <NavHashLink smooth to="#home" onClick={closeMenu}>
-            Home
-          </NavHashLink>
-          <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me
-          </NavHashLink>
-          <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
-          </NavHashLink>
-          <NavHashLink smooth to="#contact" onClick={closeMenu}>
-            Contact
-          </NavHashLink>
+          {MENU_ITEMS.map((item) => (
+            <NavHashLink smooth to={item.link} onClick={closeMenu}>
+              {item.name}
+            </NavHashLink>
+          ))}
         </nav>
         <div
           aria-expanded={isActive ? "true" : "false"}

@@ -1,20 +1,17 @@
 import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-import Developer from "../../assets/developer_illustration.png";
 import { NavHashLink } from "react-router-hash-link";
-import linkedin from "../../assets/linkedin.svg";
-import github from "../../assets/github.svg";
-import githubIcon from "../../assets/github-icon.svg";
 import Hello from "../../assets/Hello.gif";
 import {
   EXPERIENCE,
   FULLNAME,
-  GITHUB,
-  LINKEDIN,
+  GITHUB_LINK,
+  LINKEDIN_LINK,
   ROLE,
 } from "../../utils/constants";
 import { AnimationType } from "../../utils/enum";
+import { images } from "utils/images";
 export function Hero() {
   return (
     <Container id="home">
@@ -42,18 +39,18 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn={AnimationType.FadeInUp} delay={1 * 1000}>
           <div className="social-media">
-            <a href={LINKEDIN} target="_blank" rel="noreferrer">
-              <img src={linkedin} alt="Linkedin" />
+            <a href={LINKEDIN_LINK} target="_blank" rel="noreferrer">
+              <img src={images.linkedinIcon} alt="Linkedin" />
             </a>
-            <a href={GITHUB} target="_blank" rel="noreferrer">
-              <img src={githubIcon} alt="GitHub" />
+            <a href={GITHUB_LINK} target="_blank" rel="noreferrer">
+              <img src={images.githubIcon} alt="GitHub" />
             </a>
           </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn={AnimationType.FadeInRight} delay={1 * 1000}>
-          <img src={Developer} alt="Illustration" />
+          <img src={images.developerIllustration} alt="Illustration" />
         </ScrollAnimation>
       </div>
     </Container>

@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root{
-    --primary: #0764f0;
+    --primary: #016fb9;
     --black: #212121;
     --secondary: #cbb649;
     --blue: #016fb9;
@@ -111,8 +111,5 @@ export const GlobalStyle = createGlobalStyle`
   .logo{
     font-size: 3rem;
     color: #FFFF;
-    // &::first-letter{
-    //   color: var(--secondary);
-    // }
   }
-`
+`;

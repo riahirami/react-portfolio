@@ -37,10 +37,18 @@ import symfonyReactIot from "../assets/projects/symfony-react-iot.png";
 import reactScoringApp from "../assets/projects/react-scoring.png";
 import searchCity_reactNative from "../assets/projects/searchCity_reactNative.png";
 import djangoProtfolio from "../assets/projects/django_protfolio.png";
+import RiahiRamiPic from "../assets/RiahiRami.png";
+import linkedinIcon from "../assets/linkedin.svg";
+import developerIllustration from "../assets/developer_illustration.png";
+import bootstrapIcon from "../assets/bootstrap-icon.svg";
 
 export const images = {
+  RiahiRamiPic,
+  developerIllustration,
+  linkedinIcon,
   githubIcon,
   externalLink,
+  bootstrapIcon,
   htmlIcon,
   cssIcon,
   jsIcon,

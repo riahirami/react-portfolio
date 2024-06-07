@@ -1,153 +1,129 @@
-import htmlIcon from "../assets/html-icon.svg";
-import cssIcon from "../assets/css-icon.svg";
-import jsIcon from "../assets/js-icon.svg";
-import nodeIcon from "../assets/node-icon.svg";
-import reactIcon from "../assets/react-icon.svg";
-import typescriptIcon from "../assets/typescript-icon.svg";
-import muiIcon from "../assets/mui-icon.svg";
-import boostrapIcon from "../assets/bootstrap-icon.svg";
-import mysqlIcon from "../assets/mysql-icon.svg";
-import vsCodeIcon from "../assets/vscode-icon.svg";
-import androidstudioIcon from "../assets/androidstudio-icon.svg";
-import bitbucketIcon from "../assets/bitbucket-icon.svg";
-import dockerIcon from "../assets/docker-icon.svg";
-import firebaseIcon from "../assets/firebase-icon.svg";
-import gitIcon from "../assets/git-icon.svg";
-import javaIcon from "../assets/java-icon.svg";
-import jiraIcon from "../assets/jira-icon.svg";
-import mongodbIcon from "../assets/mongodb-icon.svg";
-import laravelIcon from "../assets/laravel-icon.svg";
-import phpIcon from "../assets/php-icon.svg";
-import reduxIcon from "../assets/redux-icon.svg";
-import symfonyIcon from "../assets/symfony-icon.svg";
-import xcodeIcon from "../assets/xcode-icon.svg";
-import awsIcon from "../assets/aws-icon.svg";
 import { IOptions, RecursivePartial } from "react-tsparticles";
 import { Project } from "../models/Project";
 import { images } from "./images";
 export const TECHNOLOGIES_ICONS = [
   {
-    src: boostrapIcon,
+    src: images.bootstrapIcon,
     width: 20,
     height: 20,
   },
   {
-    src: cssIcon,
+    src: images.cssIcon,
     width: 20,
     height: 20,
   },
   {
-    src: htmlIcon,
+    src: images.htmlIcon,
     width: 20,
     height: 20,
   },
   {
-    src: jsIcon,
+    src: images.jsIcon,
     width: 20,
     height: 20,
   },
   {
-    src: mysqlIcon,
+    src: images.mysqlIcon,
     width: 20,
     height: 20,
   },
   {
-    src: nodeIcon,
+    src: images.nodeIcon,
     width: 20,
     height: 20,
   },
   {
-    src: reactIcon,
+    src: images.reactIcon,
     width: 20,
     height: 20,
   },
   {
-    src: typescriptIcon,
+    src: images.typescriptIcon,
     width: 20,
     height: 20,
   },
   {
-    src: vsCodeIcon,
+    src: images.vsCodeIcon,
     width: 20,
     height: 20,
   },
   {
-    src: muiIcon,
+    src: images.muiIcon,
     width: 20,
     height: 20,
   },
   {
-    src: mysqlIcon,
+    src: images.mysqlIcon,
     width: 20,
     height: 20,
   },
   {
-    src: androidstudioIcon,
+    src: images.androidstudioIcon,
     width: 20,
     height: 20,
   },
   {
-    src: bitbucketIcon,
+    src: images.bitbucketIcon,
     width: 20,
     height: 20,
   },
   {
-    src: dockerIcon,
+    src: images.dockerIcon,
     width: 20,
     height: 20,
   },
   {
-    src: firebaseIcon,
+    src: images.firebaseIcon,
     width: 20,
     height: 20,
   },
   {
-    src: gitIcon,
+    src: images.gitIcon,
     width: 20,
     height: 20,
   },
   {
-    src: javaIcon,
+    src: images.javaIcon,
     width: 20,
     height: 20,
   },
   {
-    src: jiraIcon,
+    src: images.jiraIcon,
     width: 20,
     height: 20,
   },
   {
-    src: mongodbIcon,
+    src: images.mongodbIcon,
     width: 20,
     height: 20,
   },
   {
-    src: laravelIcon,
+    src: images.laravelIcon,
     width: 20,
     height: 20,
   },
   {
-    src: phpIcon,
+    src: images.phpIcon,
     width: 20,
     height: 20,
   },
   {
-    src: reduxIcon,
+    src: images.reduxIcon,
     width: 20,
     height: 20,
   },
   {
-    src: symfonyIcon,
+    src: images.symfonyIcon,
     width: 20,
     height: 20,
   },
   {
-    src: xcodeIcon,
+    src: images.xcodeIcon,
     width: 20,
     height: 20,
   },
   {
-    src: awsIcon,
+    src: images.awsIcon,
     width: 20,
     height: 20,
   },
@@ -326,32 +302,32 @@ export const FULLNAME = `${FIRST_NAME} ${LAST_NAME}`;
 export const ROLE = "Web/Mobile Developer";
 export const EXPERIENCE = "2 Years of Experience";
 export const EMAIL = "";
-export const LINKEDIN = "https://www.linkedin.com/in/rami-riahi/";
-export const GITHUB = "https://github.com/riahirami";
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/rami-riahi/";
+export const GITHUB_LINK = "https://github.com/riahirami";
 
 export const HARD_SKILLS_ICONS = [
-  { name: "jsIcon", icon: jsIcon },
-  { name: "typescriptIcon", icon: typescriptIcon },
-  { name: "reactIcon", icon: reactIcon },
-  { name: "nodeIcon", icon: nodeIcon },
-  { name: "htmlIcon", icon: htmlIcon },
-  { name: "cssIcon", icon: cssIcon },
-  { name: "boostrapIcon", icon: boostrapIcon },
-  { name: "muiIcon", icon: muiIcon },
-  { name: "mysqlIcon", icon: mysqlIcon },
-  { name: "androidstudioIcon", icon: androidstudioIcon },
-  { name: "bitbucketIcon", icon: bitbucketIcon },
-  { name: "dockerIcon", icon: dockerIcon },
-  { name: "firebaseIcon", icon: firebaseIcon },
-  { name: "gitIcon", icon: gitIcon },
-  { name: "javaIcon", icon: javaIcon },
-  { name: "jiraIcon", icon: jiraIcon },
-  { name: "laravelIcon", icon: laravelIcon },
-  { name: "phpIcon", icon: phpIcon },
-  { name: "reduxIcon", icon: reduxIcon },
-  { name: "symfonyIcon", icon: symfonyIcon },
-  { name: "xcodeIcon", icon: xcodeIcon },
-  { name: "awsIcon", icon: awsIcon },
+  { name: "jsIcon", icon: images.jsIcon },
+  { name: "typescriptIcon", icon: images.typescriptIcon },
+  { name: "reactIcon", icon: images.reactIcon },
+  { name: "nodeIcon", icon: images.nodeIcon },
+  { name: "htmlIcon", icon: images.htmlIcon },
+  { name: "cssIcon", icon: images.cssIcon },
+  { name: "boostrapIcon", icon: images.bootstrapIcon },
+  { name: "muiIcon", icon: images.muiIcon },
+  { name: "mysqlIcon", icon: images.mysqlIcon },
+  { name: "androidstudioIcon", icon: images.androidstudioIcon },
+  { name: "bitbucketIcon", icon: images.bitbucketIcon },
+  { name: "dockerIcon", icon: images.dockerIcon },
+  { name: "firebaseIcon", icon: images.firebaseIcon },
+  { name: "gitIcon", icon: images.gitIcon },
+  { name: "javaIcon", icon: images.javaIcon },
+  { name: "jiraIcon", icon: images.jiraIcon },
+  { name: "laravelIcon", icon: images.laravelIcon },
+  { name: "phpIcon", icon: images.phpIcon },
+  { name: "reduxIcon", icon: images.reduxIcon },
+  { name: "symfonyIcon", icon: images.symfonyIcon },
+  { name: "xcodeIcon", icon: images.xcodeIcon },
+  { name: "awsIcon", icon: images.awsIcon },
 ];
 
 export const MY_DESCRIPTION = {
@@ -533,5 +509,24 @@ export const PROJECTS: Project[] = [
     link: "",
     github: "https://github.com/riahirami/portfolio-django",
     isDeployed: false,
+  },
+];
+
+export const MENU_ITEMS = [
+  {
+    name: "Home",
+    link: "#home",
+  },
+  {
+    name: "About",
+    link: "#about",
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+  {
+    name: "Contact",
+    link: "#contact",
   },
 ];
