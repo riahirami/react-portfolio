@@ -9,12 +9,13 @@ export function About() {
   return (
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce>
           <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
           delay={generateDelayedAnimations(1)}
+          animateOnce
         >
           <p>{MY_DESCRIPTION.first_paragraph}</p>
         </ScrollAnimation>
@@ -22,18 +23,28 @@ export function About() {
           animateIn="fadeInLeft"
           delay={generateDelayedAnimations(1)}
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
+          animateOnce
         >
           <p>{MY_DESCRIPTION.second_paragraph}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
-          delay={generateDelayedAnimations(2)}
+          delay={generateDelayedAnimations(1)}
+          animateOnce
         >
           <p>{MY_DESCRIPTION.third_paragraph}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
-          delay={generateDelayedAnimations(3)}
+          delay={generateDelayedAnimations(1)}
+          animateOnce
+        >
+          <p>{MY_DESCRIPTION.fourth_paragraph}</p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={generateDelayedAnimations(2)}
+          animateOnce
         >
           <h3>Here are my main skills:</h3>
           <HardSkills />
@@ -42,7 +53,7 @@ export function About() {
       <div className="about-image">
         <ScrollAnimation
           animateIn="fadeInRight"
-          delay={generateDelayedAnimations(2)}
+          delay={generateDelayedAnimations(1)}
         >
           <img src={images.RiahiRamiPic} alt={ROLE} />
         </ScrollAnimation>

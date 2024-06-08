@@ -9,7 +9,7 @@ export function Projects() {
       <h2>My Projects</h2>
       <div className="projects">
         {PROJECTS.map((item, index) => (
-          <ScrollAnimation animateIn="flipInX">
+          <ScrollAnimation animateIn="flipInX" key={index}>
             <ProjectItem project={item} key={index} />
           </ScrollAnimation>
         ))}
