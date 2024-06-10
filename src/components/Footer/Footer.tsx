@@ -7,8 +7,8 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="https://vinayaksingh.in" className="logo">
-        <span>{FIRST_NAME}</span>
-        <span>{LAST_NAME}</span>
+        {/* <span>{FIRST_NAME}</span>
+        <span>{LAST_NAME}</span> */}
       </a>
       <div>
         <p>Copyrights 2024</p>
