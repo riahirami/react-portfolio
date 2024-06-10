@@ -28,8 +28,8 @@ export function Header() {
         />
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? "active" : ""}>
-          {MENU_ITEMS.map((item, index) => (
-            <NavHashLink smooth to={item.link} onClick={closeMenu} key={index}>
+          {MENU_ITEMS.map((item) => (
+            <NavHashLink smooth to={item.link} onClick={closeMenu}>
               {item.name}
             </NavHashLink>
           ))}
