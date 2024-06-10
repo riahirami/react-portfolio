@@ -303,9 +303,10 @@ export const PARTICLES_OPTIONS: RecursivePartial<ParticlesOptions> | undefined =
 export const FIRST_NAME = "Rami";
 export const LAST_NAME = "Riahi";
 export const FULLNAME = `${FIRST_NAME} ${LAST_NAME}`;
+export const EMAIL = "riahirami91@gmail.com";
+export const PHONE = "+21654500400";
 export const ROLE = "Web/Mobile Developer";
 export const EXPERIENCE = "2 Years of Experience";
-export const EMAIL = "";
 export const LINKEDIN_LINK = "https://www.linkedin.com/in/rami-riahi/";
 export const GITHUB_LINK = "https://github.com/riahirami";
 
