@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
-import { Form } from "../Form/Form";
 import { EMAIL, PHONE } from "utils/constants";
 
 
@@ -30,9 +29,7 @@ export function Contact(){
           </a>
           <a href={`tel:${PHONE}`}>{PHONE}</a>
         </div>
-
       </div>
-      <Form></Form>
     </Container>
   )
 }
