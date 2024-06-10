@@ -24,7 +24,7 @@ export function Contact() {
         </div>
         <div>
           <a href={`tel:${PHONE}`}>
-            <img src={phoneIcon} alt="Phone No" />
+            <img src={phoneIcon} alt="Phone Number" />
           </a>
           <a href={`tel:${PHONE}`}>{PHONE}</a>
         </div>
