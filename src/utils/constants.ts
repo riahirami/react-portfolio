@@ -336,30 +336,17 @@ export const HARD_SKILLS_ICONS = [
 ];
 
 export const MY_DESCRIPTION = {
-  first_paragraph: `Hi there! I'm Rami, a website developer with a passion for creating
-    custom online experiences for my clients. With a skill set including
-    HTML, CSS, JavaScript, and React, I have the tools to bring any
-    website vision to life.`,
-  second_paragraph: `But my services go beyond just custom development - I'm also
-    proficient in using CMS systems like WordPress and Shopify, making
-    it easy for my clients to take control of their own websites and
-    keep them up to date.`,
-  third_paragraph: `So if you're in need of a new website or just looking to revamp your
-            current online presence, I'd love to chat and see how I can help.
-            Let's bring your website dreams to reality together!`,
+  first_paragraph: `Hi there! I'm Rami, Passionate Software Engineer with solid experience in web and mobile development. Over the years, my strong desire to learn and insatiable curiosity have driven me to explore various technologies. After working on numerous web development projects, I decided to expand my skills into mobile application development. This constant quest for knowledge has allowed me to develop deep expertise in several technical areas and collaborate effectively with multidisciplinary teams.  `,
+  second_paragraph: `Always on the lookout for new trends and emerging technologies in the field of software development.`,
+  third_paragraph: `Committed to continuous learning to enhance my skills and stay updated with the latest development practices.`,
+  fourth_paragraph: `I am currently looking for new opportunities to work on challenging projects and collaborate with talented professionals. If you are looking for a dedicated and motivated developer to join your team, I would love to hear from you!`,
 };
 
 export const PROJECTS: Project[] = [
   {
     name: "Paruvendu",
     description: `Nouvelle version de l'application "Paruvendu", permet de rechercher parmi plus d'un million de petites annonces de particuliers et de professionnels. Permet de prendre contact directement avec les annonceurs pour vos recherches d'appartement, maison, voiture, moto, meubles, vêtements, objets, animaux ....`,
-    technologies: [
-      "React Native",
-      "TypeScript",
-      "Redux",
-      "React hooks",
-      "Fastlane",
-    ],
+    technologies: ["React Native", "TypeScript", "Redux", "hooks", "Fastlane"],
     image: images.paruvendu,
     link: "https://play.google.com/store/apps/details?id=com.paruvendu&hl=fr",
     github: "",
@@ -376,13 +363,7 @@ export const PROJECTS: Project[] = [
       Un calendrier interactif permet la réservation des différents services proposés par les entraîneurs, simplifiant ainsi la gestion des sessions de coaching.
       
       Avec son interface intuitive et ses fonctionnalités avancées, cette application vise à améliorer l'expérience des amateurs de sport et à faciliter le travail des entraîneurs professionnels en offrant une solution tout-en-un pour le coaching sportif.`,
-    technologies: [
-      "React Native",
-      "TypeScript",
-      "Redux",
-      "React hooks",
-      "Fastlane",
-    ],
+    technologies: ["React Native", "TypeScript", "Redux", "hooks", "Fastlane"],
     image: images.ascClient,
     link: "https://play.google.com/store/apps/details?id=com.asctrainer.client&hl=fr",
     github: "",
@@ -400,13 +381,7 @@ export const PROJECTS: Project[] = [
       Boutique de produits : Une fonctionnalité de boutique intégrée permet aux entraîneurs de vendre des produits liés à leur activité, tels que des équipements sportifs et des suppléments nutritionnels.
       
       Avec ASC Coach, les entraîneurs disposent d'un outil puissant pour optimiser leur activité, améliorer l'engagement des clients et accroître leurs revenus, le tout via une interface intuitive et conviviale.`,
-    technologies: [
-      "React Native",
-      "TypeScript",
-      "Redux",
-      "React hooks",
-      "Fastlane",
-    ],
+    technologies: ["React Native", "TypeScript", "Redux", "hooks", "Fastlane"],
     image: images.ascCoach,
     link: "https://play.google.com/store/apps/details?id=com.asctrainer.coach&hl=fr",
     github: "",
@@ -425,7 +400,7 @@ export const PROJECTS: Project[] = [
       "React",
       "TypeScript",
       "Redux",
-      "React hooks",
+      "hooks",
       "Laravel",
       "Pusher",
       "MaterialUI",
@@ -449,7 +424,7 @@ export const PROJECTS: Project[] = [
     name: "Scoring App",
     description:
       "Une application web pour gérer les scores des joueurs dans un jeu les jeux des cartes. Elle permet de créer un nouveau jeu, ajouter des joueurs, ajouter des scores et afficher les scores des joueurs. Elle est développée avec React.js pour le front-end et Firebase pour le back-end.L'application contient l'option de partager le code du jeu ou QR code pour permettre aux autres joueurs de rejoindre le jeu en mode preview et suivre le score et temps réel.",
-    technologies: ["React", "MaterialUI", "Redux", "React hooks", "Firebase"],
+    technologies: ["React", "MaterialUI", "Redux", "hooks", "Firebase"],
     image: images.reactScoringApp,
     link: "https://scoringapp.vercel.app/",
     github: "https://github.com/riahirami/react-score-app",
@@ -459,7 +434,7 @@ export const PROJECTS: Project[] = [
     name: "City Search",
     description:
       "Une application mobile pour rechercher des informations sur une ville donnée, telles que la la population, la longitude et la latitude, la température, etc. L'application utilise l'API pour obtenir les informations de la ville recherchée. Elle est développer dans le cadre d'une evaluation sur le stack mobile. Application compatbile avec Android et iOS et différents type des smartphones et tablettes.",
-    technologies: ["React Native", "TypeScript", "Redux", "React hooks"],
+    technologies: ["React Native", "TypeScript", "Redux", "hooks"],
     image: images.searchCity_reactNative,
     link: "",
     github: "https://github.com/riahirami/react_native_city_info",
