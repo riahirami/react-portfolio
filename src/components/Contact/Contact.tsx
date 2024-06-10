@@ -9,11 +9,11 @@ export function Contact() {
     <Container id="contact">
       <header>
         <h2>Contact</h2>
-        <p>
-          Ready to get started on your project? You have an interesting
-          opportunity for me ?{" "}
-        </p>
-        <p>Let's discuss ...</p>
+        <div>
+          <p>Ready to get started on your project?</p>
+          <p>You have an interesting opportunity for me ?</p>
+          <p>Let's discuss ...</p>
+        </div>
       </header>
       <div className="contacts">
         <div>
