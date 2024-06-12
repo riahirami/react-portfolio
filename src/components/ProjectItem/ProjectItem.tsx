@@ -2,7 +2,7 @@ import React from "react";
 import { Project } from "../../models/Project";
 import { Container } from "./styles";
 import { images } from "utils/images";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ProjectCardFooter from "components/ProjectCardFooter/ProjectCardFooter";
 interface ProjectProps {
   project: Project;

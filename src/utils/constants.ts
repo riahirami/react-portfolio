@@ -1,7 +1,6 @@
-import {} from "react-tsparticles";
 import { Project } from "../models/Project";
 import { images } from "./images";
-import { RecursivePartial, tsParticles } from "@tsparticles/engine";
+import { RecursivePartial } from "@tsparticles/engine";
 import { ParticlesOptions } from "models/ParticlesOptionsType";
 // import { RecursivePartial } from "@tsparticles/engine";
 
