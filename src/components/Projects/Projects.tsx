@@ -13,7 +13,8 @@ export function Projects() {
             animateIn="fadeIn"
             animateOut="fadeOut"
             key={index}
-            duration={2.5}
+            duration={index <= 2 ? 0 : 2.5}
+            initiallyVisible={index <= 2}
           >
             <ProjectItem project={item} />
           </ScrollAnimation>

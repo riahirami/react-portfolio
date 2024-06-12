@@ -14,10 +14,7 @@ const ProjectCardFooter = ({
   return (
     <Container>
       <footer>
-        <ul
-          className="tech-list"
-          style={{ flexWrap: "wrap", justifyContent: "space-around" }}
-        >
+        <ul className="tech-list">
           {project.technologies.map((tech, index) => (
             <li
               key={index}

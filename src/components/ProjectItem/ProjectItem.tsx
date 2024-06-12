@@ -12,6 +12,7 @@ const ProjectItem = ({ project }: ProjectProps) => {
     <Container id="projects">
       <div className="project" key={project.id}>
         <header>
+          <h3>{project.name}</h3>
           <div className="project-links">
             <a href={project.github} target="_blank" rel="noreferrer">
               <img
@@ -38,7 +39,6 @@ const ProjectItem = ({ project }: ProjectProps) => {
           style={{ cursor: "pointer", textDecoration: "none", color: "white" }}
         >
           <div className="body">
-            <h3>{project.name}</h3>
             <img
               src={project.image}
               alt={project.name}
