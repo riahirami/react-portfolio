@@ -15,25 +15,29 @@ export function About() {
         <ScrollAnimation
           animateIn="fadeInLeft"
           delay={generateDelayedAnimations(1)}
+          animateOnce
         >
           <p>{MY_DESCRIPTION.first_paragraph}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
           delay={generateDelayedAnimations(1)}
+          animateOnce
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>{MY_DESCRIPTION.second_paragraph}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
-          delay={generateDelayedAnimations(2)}
+          delay={generateDelayedAnimations(1)}
+          animateOnce
         >
           <p>{MY_DESCRIPTION.third_paragraph}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
-          delay={generateDelayedAnimations(3)}
+          delay={generateDelayedAnimations(1)}
+          animateOnce
         >
           <h3>Here are my main skills:</h3>
           <HardSkills />
@@ -42,7 +46,8 @@ export function About() {
       <div className="about-image">
         <ScrollAnimation
           animateIn="fadeInRight"
-          delay={generateDelayedAnimations(2)}
+          delay={generateDelayedAnimations(1)}
+          animateOnce
         >
           <img src={images.RiahiRamiPic} alt={ROLE} />
         </ScrollAnimation>
