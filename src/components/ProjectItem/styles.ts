@@ -17,7 +17,9 @@ export const Container = styled.section`
       text-overflow: ellipsis;
       -webkit-line-clamp: 5;
       max-height: 5.5em;
+      min-height: 5.5em;
     }
+
     padding: 2rem 1.8rem;
     background-color: #2b2b2b;
     border-radius: 1.2rem;
@@ -39,7 +41,6 @@ export const Container = styled.section`
       color: var(--blue);
       .project-links {
         display: flex;
-        align-items: flex-end;
         justify-content: flex-end;
         flex: 1;
       }
@@ -50,6 +51,7 @@ export const Container = styled.section`
 
     h3 {
       margin-bottom: 2rem;
+      color: var(--secondary);
     }
 
     p {
@@ -63,16 +65,6 @@ export const Container = styled.section`
         &:hover {
           color: var(--secondary);
         }
-      }
-    }
-
-    footer {
-      margin-top: auto;
-      .tech-list {
-        display: flex;
-        align-items: center;
-        font-size: 1.4rem;
-        opacity: 0.9;
       }
     }
   }

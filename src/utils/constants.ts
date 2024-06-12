@@ -1,7 +1,6 @@
-import {} from "react-tsparticles";
 import { Project } from "../models/Project";
 import { images } from "./images";
-import { RecursivePartial, tsParticles } from "@tsparticles/engine";
+import { RecursivePartial } from "@tsparticles/engine";
 import { ParticlesOptions } from "models/ParticlesOptionsType";
 // import { RecursivePartial } from "@tsparticles/engine";
 
@@ -344,6 +343,7 @@ export const MY_DESCRIPTION = {
 
 export const PROJECTS: Project[] = [
   {
+    id: 1,
     name: "Paruvendu",
     description: `Nouvelle version de l'application "Paruvendu", permet de rechercher parmi plus d'un million de petites annonces de particuliers et de professionnels. Permet de prendre contact directement avec les annonceurs pour vos recherches d'appartement, maison, voiture, moto, meubles, vêtements, objets, animaux ....`,
     technologies: ["React Native", "TypeScript", "Redux", "hooks", "Fastlane"],
@@ -353,6 +353,7 @@ export const PROJECTS: Project[] = [
     isDeployed: true,
   },
   {
+    id: 2,
     name: "ASC Client",
     description: `Une application mobile pour les clients de l'ASC, Cette application mobile est conçue pour répondre aux besoins des amateurs de sport, offrant une plateforme complète pour la gestion des services de coaching et l'interaction avec les entraineurs.
 
@@ -370,6 +371,7 @@ export const PROJECTS: Project[] = [
     isDeployed: true,
   },
   {
+    id: 3,
     name: "ASC Coach",
     description: `Une application mobile conçue spécialement pour les entraîneurs, leur offrant une solution complète pour gérer tous les aspects de leur activité de coaching.
 
@@ -388,6 +390,7 @@ export const PROJECTS: Project[] = [
     isDeployed: true,
   },
   {
+    id: 4,
     name: "AnyPet",
     description: `Une application web dédiée à faciliter l'adoption des animaux abandonnés, perdus ou séparés de leur propriétaire. Conçue pour offrir une plateforme conviviale, elle permet à chaque acteur, qu'il soit administrateur ou client, de bénéficier d'un espace personnalisé.
 
@@ -411,6 +414,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 5,
     name: "E-commerce",
     description:
       "Une application web pour gérer un site e-commerce, elle permet de gérer les produits, les commandes et les clients. Elle est développée avec React.js pour le front-end et Node.js pour le back-end. Une application dans le cadre de ma formation en école d'ingénieur.",
@@ -421,6 +425,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 6,
     name: "Scoring App",
     description:
       "Une application web pour gérer les scores des joueurs dans un jeu les jeux des cartes. Elle permet de créer un nouveau jeu, ajouter des joueurs, ajouter des scores et afficher les scores des joueurs. Elle est développée avec React.js pour le front-end et Firebase pour le back-end.L'application contient l'option de partager le code du jeu ou QR code pour permettre aux autres joueurs de rejoindre le jeu en mode preview et suivre le score et temps réel.",
@@ -431,6 +436,7 @@ export const PROJECTS: Project[] = [
     isDeployed: true,
   },
   {
+    id: 7,
     name: "City Search",
     description:
       "Une application mobile pour rechercher des informations sur une ville donnée, telles que la la population, la longitude et la latitude, la température, etc. L'application utilise l'API pour obtenir les informations de la ville recherchée. Elle est développer dans le cadre d'une evaluation sur le stack mobile. Application compatbile avec Android et iOS et différents type des smartphones et tablettes.",
@@ -441,6 +447,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 8,
     name: "Weather App",
     description:
       "Une application web pour consulter la météo dans une liste pré-définie de villes et assure la conversion de la température de Celsius à Fahrenheit.",
@@ -451,6 +458,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 9,
     name: "E-Commerce",
     description:
       "Une application web pour gérer un site e-commerce, elle permet de gérer les produits, les catégories. Elle est développée avec React.js pour le front-end et Node.js pour le back-end. Une application dans le cadre de ma formation en école d'ingénieur.",
@@ -461,6 +469,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 10,
     name: "Movies",
     description:
       "Une application web pour gérer les films, elle permet de gérer les films, les catégories, les acteurs et les réalisateurs. Une application dans le cadre de ma formation en école d'ingénieur.",
@@ -471,6 +480,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 11,
     name: "E-Commerce",
     description:
       "Une application web pour gérer un site e-commerce, elle permet de gérer les produits, les catégories. Une application dans le cadre de ma formation en école d'ingénieur.",
@@ -481,6 +491,7 @@ export const PROJECTS: Project[] = [
     isDeployed: false,
   },
   {
+    id: 12,
     name: "Portfolio",
     description:
       "Mon portfolio, développé dans le cadre de découvrir le framework Django.",

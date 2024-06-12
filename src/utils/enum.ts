@@ -3,3 +3,13 @@ export enum AnimationType {
   FadeInLeft = "fadeInLeft",
   FadeInRight = "fadeInRight",
 }
+
+export enum RouteIdEnum {
+  Root = "/",
+  Any = "*",
+  ProjectDetails = "/project-details/:id",
+  Home = "/home",
+  Projects = "/projects",
+  About = "/about",
+  Contact = "/contact",
+}

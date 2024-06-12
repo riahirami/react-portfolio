@@ -9,8 +9,14 @@ export function Projects() {
       <h2>My Projects</h2>
       <div className="projects">
         {PROJECTS.map((item, index) => (
-          <ScrollAnimation animateIn="flipInX">
-            <ProjectItem project={item} key={index} />
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOut="fadeOut"
+            key={index}
+            duration={index <= 2 ? 0 : 2.5}
+            initiallyVisible={index <= 2}
+          >
+            <ProjectItem project={item} />
           </ScrollAnimation>
         ))}
       </div>

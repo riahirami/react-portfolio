@@ -41,6 +41,8 @@ import RiahiRamiPic from "../assets/RiahiRami.png";
 import linkedinIcon from "../assets/linkedin.svg";
 import developerIllustration from "../assets/developer_illustration.png";
 import bootstrapIcon from "../assets/bootstrap-icon.svg";
+import folderIcon from "../assets/folder-icon.svg";
+import goBackIcon from "../assets/go_back_icon.png";
 
 export const images = {
   RiahiRamiPic,
@@ -48,6 +50,8 @@ export const images = {
   linkedinIcon,
   githubIcon,
   externalLink,
+  folderIcon,
+  goBackIcon,
   bootstrapIcon,
   htmlIcon,
   cssIcon,

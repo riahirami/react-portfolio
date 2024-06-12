@@ -1,15 +1,10 @@
 import { Container } from "./styles";
 import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github-icon.svg";
-import { FIRST_NAME, LAST_NAME } from "../../utils/constants";
 
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://vinayaksingh.in" className="logo">
-        {/* <span>{FIRST_NAME}</span>
-        <span>{LAST_NAME}</span> */}
-      </a>
       <div>
         <p>Copyrights 2024</p>
       </div>
