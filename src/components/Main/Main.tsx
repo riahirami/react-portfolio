@@ -3,8 +3,9 @@ import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
-import { Projects } from "../Projects/Projects";
 import { PARTICLES_OPTIONS } from "../../utils/constants";
+import Router from "routes/Router";
+import { BrowserRouter } from "react-router-dom";
 
 export function Main() {
   return (
@@ -12,7 +13,9 @@ export function Main() {
       <Particles id="tsparticles" options={PARTICLES_OPTIONS} />
       <Hero />
       <About />
-      <Projects />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
       <Contact />
     </Container>
   );
