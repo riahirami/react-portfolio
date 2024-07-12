@@ -1,4 +1,3 @@
-import React from "react";
 import { Project } from "../../models/Project";
 import { Container } from "./styles";
 import { images } from "utils/images";
@@ -9,7 +8,7 @@ interface ProjectProps {
 }
 const ProjectItem = ({ project }: ProjectProps) => {
   return (
-    <Container id="projects">
+    <Container>
       <div className="project" key={project.id}>
         <header>
           <h3>{project.name}</h3>
@@ -42,8 +41,7 @@ const ProjectItem = ({ project }: ProjectProps) => {
             <img
               src={project.image}
               alt={project.name}
-              width={350}
-              height={200}
+              className="projectImage"
             />
             <p className="truncate-description">{project.description}</p>
           </div>

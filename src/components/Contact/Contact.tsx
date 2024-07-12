@@ -1,12 +1,10 @@
 import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
-import phoneIcon from "../../assets/phone-icon.svg"
-import { EMAIL, PHONE } from "utils/constants";
+import phoneIcon from "../../assets/phone-icon.svg";
+import { EMAIL, PHONE } from "../../utils/constants";
 
-
-export function Contact(){
-
-  return(
+export function Contact() {
+  return (
     <Container id="contact">
       <header>
         <h2>Contact</h2>
@@ -31,5 +29,5 @@ export function Contact(){
         </div>
       </div>
     </Container>
-  )
+  );
 }
