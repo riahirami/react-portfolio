@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+  display: flex;
+  justify-content: center;
+
   .tech-item {
     border: 2px solid var(--secondary);
     border-radius: 0.5rem;
@@ -52,6 +55,13 @@ export const Container = styled.section`
     h3 {
       margin-bottom: 2rem;
       color: var(--secondary);
+    }
+
+    .projectImage {
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      width: 100%;
+      height: 200px;
     }
 
     p {
