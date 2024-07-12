@@ -1,4 +1,3 @@
-import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import { HARD_SKILLS_ICONS } from "../../utils/constants";
 import { AnimationType } from "../../utils/enum";

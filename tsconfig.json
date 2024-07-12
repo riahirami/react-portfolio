@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs", // Use ES6 modules if targeting modern environments
+    "module": "commonjs", // Use commonjs modules for compatibility with Node.js
     "target": "es6",
     "lib": ["dom", "es6"], // Include ES6 library to match target
     "jsx": "react-jsx", // Use react-jsx for React 17+
@@ -16,10 +16,22 @@
     "noUnusedParameters": true,
     "experimentalDecorators": true,
     "skipLibCheck": true,
-    "baseUrl": "./", // Ensure module paths align with jest.config.js
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["src/*"] // Align paths with moduleNameMapper in jest.config.js
+      "components/*": ["./components/*"],
+      "redux/*": ["./redux/*"],
+      "utils/*": ["./utils/*"],
+      "types/*": ["./types/*"],
+      "config/*": ["./config/*"],
+      "theme/*": ["./theme/*"],
+      "hooks/*": ["./hooks/*"],
+      "layouts/*": ["./layouts/*"],
+      "features/*": ["./features/*"],
+      "shared/*": ["./shared/*"],
+      "locales/*": ["./locales/*"]
     },
     "types": ["node", "jest", "react", "react-dom"]
-  }
+  },
+  "include": ["src"], // Include the src directory
+  "exclude": ["node_modules", "dist"] // Exclude unnecessary directories
 }

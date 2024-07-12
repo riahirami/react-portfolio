@@ -1,4 +1,3 @@
-import React from "react";
 import { Project } from "../../models/Project";
 import { Container } from "./styles";
 import { images } from "utils/images";
